@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ExtractCV\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ExtractCV.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ExtractCV.lufwbwtjce.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ExtractCV\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\ExtractCV\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ExtractCV\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ExtractCV\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ExtractCV.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ExtractCV.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ExtractCV.props",
+      "PackagePath": "build\\ExtractCV.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ExtractCV.props",
+      "PackagePath": "buildMultiTargeting\\ExtractCV.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ExtractCV.props",
+      "PackagePath": "buildTransitive\\ExtractCV.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

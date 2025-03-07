@@ -1,0 +1,23 @@
+﻿@page "/"
+@rendermode InteractiveServer
+<h3>Upload CV</h3>
+
+<InputFile OnChange="@OnFileChange" accept=".jpg,.png,.pdf" />
+<button @onclick="TestOnFileChange">Gọi OnFileChange</button>
+@if (cvData != null)
+{
+    <h4>Kết quả:</h4>
+    <p>Tên: @cvData.Fields.Name</p>
+    <p>Email: @cvData.Fields.Email</p>
+    <p>Điện thoại: @cvData.Fields.Phone</p>
+    <p>Học vấn: @cvData.Fields.Education</p>
+    @if (!string.IsNullOrEmpty(cvData.AvatarBase64))
+    {
+        <img src="data:image/jpeg;base64,@cvData.AvatarBase64" alt="Avatar" style="max-width: 200px;" />
+    }
+    else
+    {
+        <p>Không tìm thấy avatar.</p>
+    }
+}
+
